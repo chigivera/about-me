@@ -1,0 +1,52 @@
+/* Links.css */
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .btn {
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  
+  }
+  
+  .btn i {
+    margin-right: 5px;
+  }
+  
+  .btn-linkedin {
+    background-color: #0077b5;
+    color: white;
+  }
+  
+  .btn-instagram {
+    background-color: #e4405f;
+    color: white;
+  }
+  
+  .btn-github {
+    background-color: #333;
+    color: white;
+  }
+  
+  .btn-discord {
+    background-color: #7289da;
+    color: white;
+  }
+  
+  .btn-reddit {
+    background-color: #ff4500;
+    color: white;
+  }
+  
+  .btn-youtube {
+    background-color: #ff0000;
+    color: white;
+  }
+  
