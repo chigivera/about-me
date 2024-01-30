@@ -4,33 +4,33 @@ export default function Links() {
   return (
     <div className="links">
       <div>
-        <a href="linkedin-url" target="_blank" rel="noopener noreferrer">
-          <button className="btn btn-linkedin">LinkedIn</button>
+        <a href="https://www.linkedin.com/in/benchamkha-ayman-14aaa4292/" className="btn" >
+          <button className="btn-linkedin">LinkedIn</button>
+        </a>
+      </div>
+      {/* <div>
+        <a href="" className="btn" >
+          <button className="btn-instagram">Instagram</button>
+        </a>
+      </div> */}
+      <div>
+        <a href="https://github.com/chigivera" className="btn" >
+          <button className="btn-github">GitHub</button>
         </a>
       </div>
       <div>
-        <a href="instagram-url" target="_blank" rel="noopener noreferrer">
-          <button className="btn btn-instagram">Instagram</button>
+        <a href="https://next-blog-14.vercel.app/" className="btn" >
+          <button className="btn-discord">Projects</button>
         </a>
       </div>
-      <div>
-        <a href="github-url" target="_blank" rel="noopener noreferrer">
-          <button className="btn btn-github">GitHub</button>
+      {/* <div>
+        <a href="" className="btn" >
+          <button className="btn-reddit">Reddit</button>
         </a>
-      </div>
+      </div> */}
       <div>
-        <a href="discord-url" target="_blank" rel="noopener noreferrer">
-          <button className="btn btn-discord">Discord</button>
-        </a>
-      </div>
-      <div>
-        <a href="reddit-url" target="_blank" rel="noopener noreferrer">
-          <button className="btn btn-reddit">Reddit</button>
-        </a>
-      </div>
-      <div>
-        <a href="youtube-url" target="_blank" rel="noopener noreferrer">
-          <button className="btn btn-youtube">YouTube</button>
+        <a href="https://docs.google.com/document/d/1cd-GuUFIYhFYWvQ5Iwe2NjUV4prgmTKg_7X_rk7BQO0/edit?usp=sharing" className="btn" >
+          <button className="btn-youtube">Resume</button>
         </a>
       </div>
     </div>

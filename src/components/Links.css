@@ -1,52 +1,70 @@
 /* Links.css */
 
 .links {
+  width: 100%;
+  height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
   }
   
   .btn {
     font-size: 18px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
+   
     cursor: pointer;
-  
   }
   
-  .btn i {
+  .btn button {
     margin-right: 5px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 80%;
+    transition: all ease-in-out 0.3s;
+  }
+
+  .btn button:hover {
+    opacity: 100%;
   }
   
   .btn-linkedin {
+    border: none;
+
     background-color: #0077b5;
     color: white;
   }
   
   .btn-instagram {
     background-color: #e4405f;
+    border: none;
+
     color: white;
   }
   
   .btn-github {
     background-color: #333;
+    border: none;
+
     color: white;
   }
   
   .btn-discord {
     background-color: #7289da;
+    border: none;
+
     color: white;
   }
   
   .btn-reddit {
     background-color: #ff4500;
+    border: none;
+
     color: white;
   }
   
   .btn-youtube {
     background-color: #ff0000;
+    border: none;
+
     color: white;
   }
   
